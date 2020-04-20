@@ -19,8 +19,9 @@
         .header-right
             .edit-btn
                 = link_to("Edit","/groups/#{@group.id}/edit")
-            .delete-btn
-                = link_to("Delete","/groups/#{@group.id}",method: :delete)
+            - if @group.id != 1
+                .delete-btn
+                    = link_to("Delete","/groups/#{@group.id}",method: :delete)
     .messages
         = render @messages
     .main-footer

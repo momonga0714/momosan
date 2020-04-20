@@ -148,6 +148,10 @@
   
 }
 
+.account-page input[type='submit'] {
+  margin-right: 40px;
+}
+
 /* --------------------------------
  * smart phone
  * -------------------------------- */
@@ -177,10 +181,25 @@
     margin-top: 20px;
     color: #fff;
     background-color: #ccc;
+    float: right;
   }
   .account-page .btn {
     margin-left: 0px;
   }
+  .account-page input[type='submit'] {
+    margin-right: 0px;
+    float: left;
+  }
+  .account-page .field .field-label{
+    text-align: left;
+  }
+  .account-page .account-page__header .btn {
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
   
+  
+
+
 }
  

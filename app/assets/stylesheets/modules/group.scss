@@ -123,13 +123,18 @@ li {
     width: 100%;
   }
   .chat-group-form__label{
-    text-align: center;
+    font-weight: normal;
+    text-align: left;
   }
   .chat-group-form__field--left{
     width: 100%;
+    padding-left: 0;
   }
   .chat-group-form__field--right{
     text-align: center;
+  }
+  .chat-group-form__field--left{
+
   }
   
 }
